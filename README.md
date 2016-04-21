@@ -1,4 +1,4 @@
-# Package Managers
+# Package Managers [![Build Status](https://travis-ci.org/millette/package-managers.svg?branch=master)](https://travis-ci.org/millette/package-managers) [![Coverage Status](https://coveralls.io/repos/github/millette/package-managers/badge.svg?branch=master)](https://coveralls.io/github/millette/package-managers?branch=master)
 
 Metadata extracted from [Libraries.io](https://libraries.io) about many different package managers in a standard format.
 
