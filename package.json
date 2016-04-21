@@ -1,0 +1,44 @@
+{
+  "name": "librarian-package-managers",
+  "version": "0.0.1",
+  "description": "Package managers supported by libraries.io.",
+  "main": "package-managers.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millette/package-managers.git"
+  },
+  "author": {
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "http://robin.millette.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/millette/package-managers/issues"
+  },
+  "homepage": "https://github.com/millette/package-managers#readme",
+  "engines": {
+    "node": ">=4.3.1"
+  },
+  "scripts": {
+    "test": "standard && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "package-managers.json"
+  ],
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "babel-eslint": "^6.0.0",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.1.1",
+    "standard": "^6.0.8"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+
+}
