@@ -1,10 +1,11 @@
 {
   "name": "librarian-package-managers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package managers supported by libraries.io.",
   "main": "package-managers.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,6 @@
   "engines": {
     "node": ">=4.3.1"
   },
-  "scripts": {
-    "test": "standard && nyc ava",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
-  },
   "files": [
     "package-managers.json"
   ],
@@ -40,5 +37,4 @@
   "standard": {
     "parser": "babel-eslint"
   }
-
 }
