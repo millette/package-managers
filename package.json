@@ -31,11 +31,11 @@
     "package-managers.json"
   ],
   "devDependencies": {
-    "ava": "^0.12.0",
-    "babel-eslint": "^6.0.0",
-    "coveralls": "^2.11.9",
-    "nyc": "^6.1.1",
-    "standard": "^6.0.8"
+    "ava": "^0.16.0",
+    "babel-eslint": "^6.1.2",
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.0",
+    "standard": "^8.1.0"
   },
   "standard": {
     "parser": "babel-eslint"
