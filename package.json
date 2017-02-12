@@ -28,10 +28,10 @@
     "package-managers.json"
   ],
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.18.1",
     "babel-eslint": "^6.1.2",
     "coveralls": "^2.11.14",
-    "nyc": "^8.3.0",
+    "nyc": "^10.1.2",
     "standard": "^8.1.0"
   },
   "standard": {
